@@ -1,11 +1,74 @@
 body{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
     height: 100vh;
     background: #112c38;
 }
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    width: 500px;
+    text-align: center;
+    border-bottom: 5px solid #ff497c;
+    overflow: hidden;
+    box-shadow: 0px 5px 2px rgba(0,0,0,.5);
+    animation: reveal 2s linear forwards;
+}
+
+header h1{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgba(red, green, blue, .5);
+    text-transform: uppercase;
+
+}
+
+@keyframes reveal{
+    0%
+    {
+        width: 0;
+        height: 0;
+    }
+
+    30%
+    {
+        width: 500px;
+        height: 0px;
+    }
+
+    60%
+    {
+        width: 500px;
+        height: 100px;
+    }
+    
+    80%
+    {
+        width: 500px;
+        height: 100px;
+    }
+
+    100%
+    {
+        width: 500px;
+        height: 100px;
+    }
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
 
 ul{
     margin: 0;
