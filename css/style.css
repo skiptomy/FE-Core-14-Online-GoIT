@@ -15,12 +15,12 @@ header{
     text-align: center;
     border-bottom: 5px solid #ff497c;
     overflow: hidden;
-    box-shadow: 0px 5px 2px rgba(0,0,0,.5);
+    box-shadow: 0px 5px 0px rgba(0,0,0,.5);
     animation: reveal 2s linear forwards;
 }
 
 header h1{
-    font-size: 48px;
+    font-size: 36px;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 2px rgba(red, green, blue, .5);
@@ -44,19 +44,19 @@ header h1{
     60%
     {
         width: 500px;
-        height: 100px;
+        height: 80px;
     }
     
     80%
     {
         width: 500px;
-        height: 100px;
+        height: 80px;
     }
 
     100%
     {
         width: 500px;
-        height: 100px;
+        height: 80px;
     }
 }
 
